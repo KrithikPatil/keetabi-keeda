@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us Section</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css\aboutus.css">
+</head>	
+<body>
+
+    <header class="header">
+
+        <div class="header-1">
+    
+            <a href="index.html" class="logo"> <i class="fas fa-book"></i> Keetabi Keeda </a>
+    
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+    
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+    
+        </div>
+    
+        <div class="header-2">
+            <nav class="navbar">
+                <li><a href="index.html">home</a></li>
+                <li><a href="aboutus.html">about us</a></li>
+                <li><a href="#categories">Categories</a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Buy/Sell</a></li>
+                            <li><a href="#">Author</a></li>
+                            <li><a href="#">Language</a></li>
+                            <li><a href="#">Region</a></li>
+                           <li class="hover-me"><a href="#">Genre</a><i class="fa fa-angle-right"></i>
+                                <div class="submenu1">
+                                    <ul>
+                                        <li><a href="political.html">Political</a></li>
+                                        <li><a href="scientific.html">Scientific</a></li>
+                                        <li><a href="motivation.html">Motivational</a></li>
+                                        <li><a href="historical.html">Historical</a></li>
+                                        <li><a href="romance.html">Romance</a></li>
+                                        <li><a href="drama.html">Drama</a></li>
+                                        <li><a href="fictional.html">Fictional</a></li>
+                                    </ul>s
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </nav>
+        </div>
+        <script>
+            jQuery('ul#categories').hover(function(){
+                jQuery('.submenu').fadeTo(200,1);
+            }, function(){
+                jQuery('.submenu').fadeTo(200,0,function(){
+                    jQuery(this).hide();
+                });
+            });
+        </script>
+    </header>
+    
+	<div class="section">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3><p><h2>What is Keetabi Keeda?</h2>
+                        <p>Keetabi Keeda is a crowdsourced platform for book reading. It is a network of reading enthusiasts where the members read books by lending to and borrowing from each other.</p>
+                    </p>
+                        
+                        <p><h2>Who runs Keetabi Keeda?</h2>
+                       <p> Keetabi Keeda is a start-up co-founded by a small team of book enthusiasts. Being in love with books, and being passionate about reading are the only things that matter to us.</p>
+                        </p>
+                        
+                       <p> <h2>How does this platform operate?</h2>
+                        <p>Keetabi Keeda helps manage all the logistics involved in lending and borrowing of books. We ensure pick-up and delivery of books from your doorsteps. Once read, the borrowed books are again picked up and returned to the owner.
+                        More importantly, we send out both personalized and generic book recommendations to our network members. This helps them choose from a more meaningful set of options and recommendations from other user members.
+                    </p>
+                        
+                        <p><h2>What kind of books do you have?</h2>
+                        <p>We have a good collection of books in our network. They include books from genres across Biography/ Autobiography, Fiction - Romance, Crime/ Thriller, Philosophy, Other fiction, Self Help/ Inspirational, Business Management, History, Health and Fitness, Food and Cooking, Memoir, Religion and Mythology, Philosophy, Play, Poetry, Politics, Satire, Science, Short Stories, Children, Travel and others.
+                        Also included in our network are some of the best Hindi classics. We have recently started sharing books in Marathi also.
+                    </p>
+                        
+                        
+                            
+                        </p>
+					<div class="button">
+						<a href="">Read More</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+	
+</body>
+</html>
